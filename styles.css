@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #A5D0E9;
+  background: #000000;
 }
 /* Link Styles */
 
@@ -95,7 +95,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #D5A58A;
+  background: #28A8C3;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -112,23 +112,19 @@ ul.skills {
 .skills li {
   border-radius: 5px;
   display: inline-block;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   padding: 5px 10px;
   margin: 2px;
   }
 
-.skills li:nth-child(1) {
+.skills li:nth-child(odd) {
   background: forestgreen;
-  margin-right: 2px;
+  margin-right: 5px;
 }
-.skills li:nth-child(2){
-  margin-right: 17px;
-}
-.skills li:nth-child(3){
-  background: forestgreen;
-}
-
+.skills li:hover {
+   transform: scale(1.1);
+   }
 
 footer {
   width: 100%;
@@ -227,8 +223,6 @@ a.social:hover {
 .experience:hover {
   transform: scale(1.3);
 }
-
-
 
 
 
